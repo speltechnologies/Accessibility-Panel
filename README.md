@@ -1,13 +1,13 @@
-Accessibility Panel
+#Accessibility Panel
 
 Our project is to create accessibility panel designed for universal use. This is a platform to set accessibility configurations for your website.
 
-Getting Started
+#Getting Started
 
 To integrate the accessibility panel in your project, add accessibility.ftl to your screens.
 Link all javascript files to your footer and add links to the style files to your header.
 
-Implementation
+#Implementation
 
 In addition to this, you will have to add the following javascript code to your footer or to all those ftl pages where you want to implement the accessibility settings.
 
@@ -20,22 +20,22 @@ In addition to this, you will have to add the following javascript code to your 
  });
 </script>
 
-JS Files
+#JS Files
 
 Slider.js contains the javascript functions for the accessibility page
 
 spelscreenreader.js has implemented bespeak function that gets called on key press or performing the configured action.
 
-Built With
+#Built With
 
 Apache offbiz. 
 
-Contributing
+#Contributing
 
 Feel free to use our code and contribute to the accessibility panel.
 
 
-License
+#License
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -50,7 +50,7 @@ License
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Acknowledgments
+#Acknowledgments
 
 Please like and follow us on Github, Facebook and Twitter
 Visit our website Speltechnologies.com
