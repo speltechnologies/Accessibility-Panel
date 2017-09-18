@@ -1,0 +1,79 @@
+* {
+	background-color: #000 !important;
+	color: #0F0  !important;
+	border-color: #0F0 !important;
+}
+
+body {
+	background-color: #000;
+}
+
+
+a:focus {
+	border: 1px dashed #0F0;
+}
+
+
+/*** RADIO AND CHECKBOX BORDERS ***/
+[type="radio"]:not(:checked) + label:before,
+[type="radio"]:checked + label:before,
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  border: 3px solid #0F0;
+  background-color: #000;
+}
+
+[type="radio"]:checked + label:after,
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  background: #0F0;
+  border: 3px solid #000;
+}
+
+
+
+/******************************************************
+	PANELS
+******************************************************/
+.panel {
+	box-shadow: 1px 1px 3px #0F0;
+}
+
+/******************************************************
+	ACCESSIBILITY SLIDERS
+******************************************************/
+div.aria-widget-slider .rail {
+  background-color: #0F0 !important;
+}
+
+div.aria-widget-slider .thumb  {
+  border: 3px solid #0F0;
+}
+
+div.focus .thumb  {
+	background-color: green !important;
+}
+
+.grayOnWhite {
+	border: 1px solid #333 !important;
+	color: #333 !important;
+	background-color: #fff !important;
+}
+
+.blueOnWhite {
+	border: 1px solid #00F !important;
+	color: #00F !important;
+	background-color: #fff !important;
+}
+
+.yellowOnBlack {
+	background-color: #000 !important;
+	color: yellow !important;
+	border: 1px solid yellow !important;
+}
+
+.greenOnBlack {
+	background-color: #000 !important;
+	color: #0F0 !important;
+	border: 1px solid #0F0 !important;
+}

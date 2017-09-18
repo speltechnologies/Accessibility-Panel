@@ -1,0 +1,72 @@
+* {
+	background-color: #fff !important;
+	color: blue  !important;
+	border-color: blue !important;
+}
+
+body {
+	background-color: #fff;
+}
+
+a:focus {
+	border: 1px dashed blue;
+}
+
+
+/*** RADIO AND CHECKBOX BORDERS ***/
+[type="radio"]:not(:checked) + label:before,
+[type="radio"]:checked + label:before,
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  border: 3px solid blue;
+}
+
+[type="radio"]:checked + label:after,
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  background: blue;
+}
+
+
+
+/******************************************************
+	PANELS
+******************************************************/
+.panel-heading.blue-green {
+	background: #fff;
+}
+
+/******************************************************
+	ACCESSIBILITY SLIDERS
+******************************************************/
+div.aria-widget-slider .rail {
+  background-color: blue !important;
+}
+
+div.aria-widget-slider .thumb  {
+  border: 3px solid blue;
+}
+
+div.focus .thumb  {
+	background-color: blue !important;
+}
+
+.grayOnWhite {
+	border: 1px solid #333 !important;
+	color: #333 !important;
+}
+
+.blueOnWhite {
+	border: 1px solid #00F !important;
+	color: #00F !important;
+}
+
+.yellowOnBlack {
+	background-color: #000 !important;
+	color: yellow !important;
+}
+
+.greenOnBlack {
+	background-color: #000 !important;
+	color: #0F0 !important;
+}
