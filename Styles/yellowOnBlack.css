@@ -1,0 +1,83 @@
+* {
+	background-color: #000 !important;
+	color: yellow  !important;
+	border-color: yellow !important;
+}
+
+body {
+	background-color: #000;
+}
+
+
+a:focus {
+	border: 1px dashed yellow;
+}
+
+
+/*** RADIO AND CHECKBOX BORDERS ***/
+[type="radio"]:not(:checked) + label:before,
+[type="radio"]:checked + label:before,
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  border: 3px solid yellow;
+  background-color: #000;
+}
+
+[type="radio"]:checked + label:after,
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  background: yellow;
+  border: 3px solid #000;
+}
+
+
+
+/******************************************************
+	PANELS
+******************************************************/
+.panel {
+	box-shadow: 1px 1px 3px yellow;
+}
+
+.panel-heading.blue-green {
+	background: #fff;
+}
+
+/******************************************************
+	ACCESSIBILITY SLIDERS
+******************************************************/
+div.aria-widget-slider .rail {
+  background-color: yellow !important;
+}
+
+div.aria-widget-slider .thumb  {
+  border: 3px solid yellow;
+}
+
+div.focus .thumb  {
+	background-color: yellow !important;
+}
+
+.grayOnWhite {
+	border: 1px solid #333 !important;
+	color: #333 !important;
+	background-color: #fff !important;
+}
+
+.blueOnWhite {
+	border: 1px solid #00F !important;
+	color: #00F !important;
+	background-color: #fff !important;
+}
+
+.yellowOnBlack {
+	background-color: #000 !important;
+	color: yellow !important;
+	border: 1px solid yellow !important;
+}
+
+.greenOnBlack {
+	background-color: #000 !important;
+	color: #0F0 !important;
+	border: 1px solid green !important;
+}
