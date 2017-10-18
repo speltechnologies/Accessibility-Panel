@@ -1,4 +1,4 @@
-<!-- 	 Created by SPEL Technologies Inc and Hot Wax Systems 
+<!-- 	 Created by SPEL Technologies Inc and HotWax Systems 
 
 	     This program is free software: you can redistribute it and/or modify
 	     it under the terms of the GNU General Public License as published by
