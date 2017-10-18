@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  * 
- * Modified by SPEL Tehnologies. Inc and Hot Wax Systems.
+ * Modified by SPEL Tehnologies. Inc and HotWax Systems.
  */
 
 /*
